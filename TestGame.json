@@ -16,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "f538029f-1315-4598-9a7f-639a117dd63f",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "adaptHeight",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -1358,6 +1358,105 @@
         "name": "Fall3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sky.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sky.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/sky.png2.png\"}",
+        "name": "sky.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "far-mountains.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "far-mountains.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/far-mountains.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/far-mountains.png2.png\"}",
+        "name": "far-mountains.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "trees.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"trees.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "trees.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sky.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "sky.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mountains.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mountains.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sky2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sky2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mountains2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mountains2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "middleground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "middleground.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1386,8 +1485,8 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.76193626771976,
-        "windowMask": false
+        "zoomFactor": 0.5843784410740938,
+        "windowMask": true
       },
       "objectsGroups": [],
       "variables": [],
@@ -1395,14 +1494,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 80,
+          "depth": 2,
+          "height": 96,
           "layer": "",
           "name": "Player",
           "persistentUuid": "89429b4c-5eb7-4eec-8e03-870d3fa3dc1d",
-          "width": 64,
-          "x": 128,
-          "y": 272,
+          "width": 96,
+          "x": 96,
+          "y": 256,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1412,14 +1511,174 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 112,
+          "height": 800,
+          "layer": "Background",
+          "name": "Background",
+          "persistentUuid": "7e93584f-39c8-4c07-913f-93a1645efefc",
+          "width": 1338,
+          "x": -29,
+          "y": -64,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
           "layer": "",
           "name": "Platform01",
-          "persistentUuid": "aaa9717c-3e36-42d1-a906-07270de1215f",
-          "width": 1024,
-          "x": 96,
-          "y": 352,
-          "zOrder": 2,
+          "persistentUuid": "66521e90-2c02-405e-9faa-aec57cb9ad74",
+          "width": 320,
+          "x": -32,
+          "y": 384,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "",
+          "name": "Platform01",
+          "persistentUuid": "37136653-139b-47da-b015-c1553c46077b",
+          "width": 320,
+          "x": 288,
+          "y": 384,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "",
+          "name": "Platform01",
+          "persistentUuid": "db80e4ec-ced5-4f7f-92c5-dff0e9c0f548",
+          "width": 320,
+          "x": 608,
+          "y": 384,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 139,
+          "layer": "",
+          "name": "Statue1",
+          "persistentUuid": "cfa388e7-fb7c-44b3-b1f6-04f34c321f3d",
+          "width": 128,
+          "x": 704,
+          "y": 320,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "layer": "Foreground",
+          "name": "MountainsBG",
+          "persistentUuid": "9b75f33a-8799-42cf-bd7b-c0c487fe6805",
+          "width": 608,
+          "x": -32,
+          "y": 192,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "layer": "Foreground",
+          "name": "MountainsBG",
+          "persistentUuid": "dbecc94b-a21f-4cd1-b70b-5ccb6162773a",
+          "width": 608,
+          "x": 544,
+          "y": 224,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "layer": "Foreground",
+          "name": "MountainsBG",
+          "persistentUuid": "3d0b9cdc-c907-4770-80c9-c9827d24b612",
+          "width": 608,
+          "x": 1152,
+          "y": 224,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "",
+          "name": "Platform01",
+          "persistentUuid": "b6b3f548-ea98-4726-bb66-42fa5be928e5",
+          "width": 320,
+          "x": 928,
+          "y": 384,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "",
+          "name": "Platform01",
+          "persistentUuid": "0660ebcf-56c0-4e5a-a672-034103e79a87",
+          "width": 320,
+          "x": 1248,
+          "y": 384,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "",
+          "name": "Platform01",
+          "persistentUuid": "0721f3ed-265d-4028-be91-24f46173e565",
+          "width": 320,
+          "x": 1568,
+          "y": 384,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1439,6 +1698,9 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.1,
+              "maxFallingSpeed": 697,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -1446,10 +1708,7 @@
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
               "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
@@ -1494,11 +1753,11 @@
                           },
                           {
                             "x": 42,
-                            "y": 63
+                            "y": 64
                           },
                           {
                             "x": 20.5,
-                            "y": 63
+                            "y": 64
                           }
                         ]
                       ]
@@ -1530,11 +1789,11 @@
                           },
                           {
                             "x": 42,
-                            "y": 63
+                            "y": 64
                           },
                           {
                             "x": 20.5,
-                            "y": 63
+                            "y": 64
                           }
                         ]
                       ]
@@ -1566,11 +1825,11 @@
                           },
                           {
                             "x": 42,
-                            "y": 63
+                            "y": 64
                           },
                           {
                             "x": 20.5,
-                            "y": 63
+                            "y": 64
                           }
                         ]
                       ]
@@ -1602,11 +1861,11 @@
                           },
                           {
                             "x": 42,
-                            "y": 63
+                            "y": 64
                           },
                           {
                             "x": 20.5,
-                            "y": 63
+                            "y": 64
                           }
                         ]
                       ]
@@ -2207,10 +2466,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2265,6 +2524,251 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Statue1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 63,
+                            "y": 0
+                          },
+                          {
+                            "x": 63,
+                            "y": 75
+                          },
+                          {
+                            "x": 0,
+                            "y": 75
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sky2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MountainsBG",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mountains2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 47
+                          },
+                          {
+                            "x": 320,
+                            "y": 47
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CityBackground",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "middleground.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 33
+                          },
+                          {
+                            "x": 384,
+                            "y": 33
+                          },
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 0,
+                            "y": 288
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2286,23 +2790,27 @@
           "actions": [
             {
               "type": {
-                "value": "CentreCamera"
+                "value": "ZoomCamera"
               },
               "parameters": [
                 "",
-                "Player",
-                "",
+                "1.3",
                 "",
                 ""
               ]
             },
             {
               "type": {
-                "value": "ZoomCamera"
+                "value": "FixCamera"
               },
               "parameters": [
                 "",
-                "1.5",
+                "Player",
+                "0",
+                "0",
+                "2000",
+                "540",
+                "",
                 "",
                 ""
               ]
@@ -2534,6 +3042,70 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Foreground",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 0,
           "ambientLightColorG": 8042920,
